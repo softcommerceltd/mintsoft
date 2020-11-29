@@ -18,7 +18,7 @@ A plugin that integrates and synchronises data between Magento2 and MintSoft htt
 * Login to your magento server and move to magento's app/code directory
 `cd app/code && mkdir SoftCommerce && cd SoftCommerce && mkdir MintSoft` to create new directory app/code/SoftCommerce/MintSoft
 * Upload contents to app/code/SoftCommerce/MintSoft directory.
-* Move back to your magento root directory and execute "Post Install" commands described bellow.
+* Move back to your magento root directory and execute "Post Installation" commands described bellow.
 
 ### Install via composer
 
