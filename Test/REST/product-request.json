@@ -1,0 +1,129 @@
+{
+  "SKU": "string",
+  "Name": "string",
+  "CartonSizes": "string",
+  "PalletSizes": "string",
+  "PackingInstructions": "string",
+  "Description": "string",
+  "CustomsDescription": "string",
+  "CountryOfManufactureId": 0,
+  "EAN": "string",
+  "UPC": "string",
+  "LowStockAlertLevel": 0,
+  "Weight": 0,
+  "Height": 0,
+  "Width": 0,
+  "Depth": 0,
+  "Volume": 0,
+  "BackOrder": true,
+  "Bundle": true,
+  "DisCont": true,
+  "Price": 0,
+  "CostPrice": 0,
+  "VatExempt": true,
+  "AdditionalParcelsRequired": 0,
+  "UnitsPerParcel": 0,
+  "HasBatchNumber": true,
+  "HasSerialNumber": true,
+  "HasExpiryDate": true,
+  "BestBeforeDateWarningPeriodDays": 0,
+  "CommodityCode": {
+    "Code": "string",
+    "ID": 0,
+    "LastUpdated": "2020-01-29T10:58:43.685Z",
+    "LastUpdatedByUser": "string"
+  },
+  "HandlingTime": 0,
+  "ImageURL": "string",
+  "Subscription": true,
+  "SubscriptionLength": 0,
+  "SubscriptionFrequency": "string",
+  "ProductInCategories": [
+    {
+      "ProductId": 0,
+      "ProductCategoryId": 0,
+      "ProductCategory": {
+        "Name": "string",
+        "ClientId": 0,
+        "ID": 0,
+        "LastUpdated": "2020-01-29T10:58:43.685Z",
+        "LastUpdatedByUser": "string"
+      },
+      "ID": 0,
+      "LastUpdated": "2020-01-29T10:58:43.685Z",
+      "LastUpdatedByUser": "string"
+    }
+  ],
+  "ProductPrices": [
+    {
+      "ProductId": 0,
+      "Price": 0,
+      "ProductPriceTypeId": 0,
+      "ProductPriceType": {
+        "Name": "string",
+        "ID": 0,
+        "LastUpdated": "2020-01-29T10:58:43.685Z",
+        "LastUpdatedByUser": "string"
+      },
+      "Currency": {
+        "Name": "string",
+        "Code": "string",
+        "Symbol": "string",
+        "ID": 0,
+        "LastUpdated": "2020-01-29T10:58:43.685Z",
+        "LastUpdatedByUser": "string"
+      },
+      "ID": 0,
+      "LastUpdated": "2020-01-29T10:58:43.685Z",
+      "LastUpdatedByUser": "string"
+    }
+  ],
+  "ProductSuppliers": [
+    {
+      "ProductId": 0,
+      "ProductSupplierId": 0,
+      "ProductSupplier": {
+        "Name": "string",
+        "ContactName": "string",
+        "ContactNumber": "string",
+        "AddressLine1": "string",
+        "AddressLine2": "string",
+        "AddressLine3": "string",
+        "Town": "string",
+        "County": "string",
+        "Postcode": "string",
+        "CountryId": 0,
+        "Country": {
+          "Name": "string",
+          "Code": "string",
+          "Code3": "string",
+          "ID": 0,
+          "LastUpdated": "2020-01-29T10:58:43.685Z",
+          "LastUpdatedByUser": "string"
+        },
+        "ContactEmail": "string",
+        "Active": true,
+        "CurrencyId": 0,
+        "Currency": {
+          "Name": "string",
+          "Code": "string",
+          "Symbol": "string",
+          "ID": 0,
+          "LastUpdated": "2020-01-29T10:58:43.685Z",
+          "LastUpdatedByUser": "string"
+        },
+        "ClientId": 0,
+        "ID": 0,
+        "LastUpdated": "2020-01-29T10:58:43.685Z",
+        "LastUpdatedByUser": "string"
+      },
+      "ID": 0,
+      "LastUpdated": "2020-01-29T10:58:43.685Z",
+      "LastUpdatedByUser": "string"
+    }
+  ],
+  "ClientId": 0,
+  "ID": 0,
+  "LastUpdated": "2020-01-29T10:58:43.685Z",
+  "LastUpdatedByUser": "string"
+}

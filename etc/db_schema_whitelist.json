@@ -1,0 +1,19 @@
+{
+    "softcommerce_mintsoft_product_export": {
+        "column": {
+            "entity_id": true,
+            "sku": true,
+            "status": true,
+            "external_id": true,
+            "message": true,
+            "request_entry": true,
+            "response_entry": true,
+            "created_at": true,
+            "updated_at": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "SOFTCOMMERCE_MINTSOFT_PRD_EXPORT_ENTT_ID_CAT_PRD_ENTT_ENTT_ID": true
+        }
+    }
+}

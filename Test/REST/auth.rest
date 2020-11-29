@@ -1,0 +1,32 @@
+### auth
+GET https://api.mintsoft.co.uk/api/Auth?UserName=serhiy@softcommerce.co.uk&Password=D#h}^r78_g\<"3l!1uh66W
+Accept: application/json
+Content-Type: application/json
+
+### auth simulationg wrong login
+GET https://api.mintsoft.co.uk/api/Auth?UserName=mintSoft_cb29&Password=ce0b51dc-6811-442f-a47d-842a52cfcb3d
+Accept: application/json
+
+### products
+GET https://api.mintsoft.co.uk/api/Product/Search
+Accept: application/json
+Content-Type: application/json
+APIKey: eyJ0eXAiOiJ
+
+### products
+GET https://api.mintsoft.co.uk/api/Product/14307?APIKey=cf589b5a-4556-4b7d-b46e-0052cd4fb662
+Accept: application/json
+
+###
+GET https://api.mintsoft.co.uk/api/Product/100?APIKey=fdfsdfdsdssdfsfs
+Accept: application/json
+###
+
+POST https://api.mintsoft.co.uk/api/Product?APIKey=cf589b5a-4556-4b7d-b46e-0052cd4fb662
+Accept: application/json
+Content-Type: application/json
+
+{"ID":"25272","SKU":"01-01-26-23-39","Name":"Work Boots-6 UK \/ 39 EU \/ 8 US test","Description":null,"CustomsDescription":"Ladies boots synthetic","CountryOfManufactureId":"PT","EAN":"5056244105259","Weight":"0.0000","Height":null,"Width":"126","Price":"93.0000","CommodityCode":[{"Code":"64029190 00"}],"ImageURL":"http:\/\/wills.magedev.net\/media\/catalog\/product\/cache\/0\/image\/9df78eab33525d08d6e5fb8d27136e95\/w\/o\/work-boots-tan-1.jpg"}
+
+###
+

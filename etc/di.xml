@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+ ~ Copyright © Soft Commerce Ltd. All rights reserved.
+ ~ See LICENSE.txt for license details.
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- product ::: interface | repository | management -->
+    <preference for="SoftCommerce\MintSoft\Api\Data\ProductExportInterface" type="SoftCommerce\MintSoft\Model\ProductExport"/>
+    <preference for="SoftCommerce\MintSoft\Api\ProductExportRepositoryInterface" type="SoftCommerce\MintSoft\Model\ProductExportRepository"/>
+    <preference for="SoftCommerce\MintSoft\Api\Data\ProductExportSearchResultsInterface" type="Magento\Framework\Api\SearchResults" />
+    <preference for="SoftCommerce\MintSoft\Api\ProductExportRegisterManagementInterface" type="SoftCommerce\MintSoft\Model\ProductExportRegisterManagement"/>
+    <preference for="SoftCommerce\MintSoft\Api\ProductExportSubmitManagementInterface" type="SoftCommerce\MintSoft\Model\ProductExportSubmitManagement"/>
+    <preference for="SoftCommerce\MintSoft\Http\ClientInterface" type="SoftCommerce\MintSoft\Http\Client"/>
+    <!-- CLI -->
+    <type name="Magento\Framework\Console\CommandListInterface">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="product_export" xsi:type="object">SoftCommerce\MintSoft\Console\Command\ProductExportService</item>
+            </argument>
+        </arguments>
+    </type>
+    <!-- Logger -->
+    <virtualType name="SoftCommerceMintSoftVirtualLogger" type="Magento\Framework\Logger\Monolog">
+        <arguments>
+            <argument name="handlers" xsi:type="array">
+                <item name="debug" xsi:type="object">SoftCommerce\MintSoft\Logger\Handler</item>
+            </argument>
+        </arguments>
+    </virtualType>
+    <type name="SoftCommerce\MintSoft\Logger\Logger">
+        <arguments>
+            <argument name="logger" xsi:type="object">SoftCommerceMintSoftVirtualLogger</argument>
+        </arguments>
+    </type>
+</config>
