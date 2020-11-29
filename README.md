@@ -26,11 +26,11 @@ Run the following command from Magento root directory:
 
 ```
 composer config repositories.softcommerce-mintsoft vcs https://github.com/softcommerceltd/mintsoft.git
-composer require softcommerce/mintsoft
+composer require softcommerce/module-mintsoft
 ```
 If you receive an error regarding php incompatibility, but you are sure your php version is compatible, then use --ignore-platform-reqs
 ```
-composer require softcommerce/mintsoft --ignore-platform-reqs
+composer require softcommerce/module-mintsoft --ignore-platform-reqs
 ```
 
 ### Post Installation
