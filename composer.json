@@ -25,13 +25,5 @@
             "SoftCommerce\\MintSoft\\": ""
         }
     },
-    "extra": {
-        "map": [
-            [
-                "*",
-                "SoftCommerce/MintSoft"
-            ]
-        ]
-    },
     "version": "1.0.1"
 }
